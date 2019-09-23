@@ -12,7 +12,7 @@ export default class Camera extends Component {
             filePath: null
         }
     }
-
+    
     chooseFile = () => {
         var option = {
             title: 'Select Images',
