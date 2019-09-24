@@ -7,7 +7,7 @@ import { Scene, Stack, Router, Tabs } from 'react-native-router-flux'
 import Camera from './Camera'
 import VideoPlayer from './Video'
 import Record from './Record'
-import Youtube from './Youtube'
+import YoutubePlayer from './Youtube'
 
 const TabsIcon = ({ ...props }) => {
     const { iconsAction, iniconsAction, focused } = props
@@ -67,7 +67,7 @@ const TabsManager = () => {
                         title='Youtube'
                     >
                         <Scene
-                            component={Youtube}
+                            component={YoutubePlayer}
                         />
                     </Stack>
                 </Tabs>
