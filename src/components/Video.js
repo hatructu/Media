@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import {
     Text, TouchableWithoutFeedback,
-    View, StyleSheet, Image
+    View, StyleSheet, Image,
+    Dimensions,
+    PixelRatio,
 } from 'react-native'
 import Video from 'react-native-video'
 import funnycats from '../videos/funnycats.mp4'
